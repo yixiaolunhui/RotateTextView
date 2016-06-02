@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.dalong.rotatetextview.RotateView
+        android:id="@+id/rotate"
+        app:imageScaleType="center"
+        app:titleText="58.3元"
+        android:padding="5dp"
+        app:image="@mipmap/yishou"
+        app:titleTextColors="#ffffff"
+        app:titleTextSize="19sp"
+        app:titleRotate="-45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
